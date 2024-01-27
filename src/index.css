@@ -1,0 +1,12 @@
+:root{
+    --golden_color: #d9ad26;
+    /* 25% mas ligero  #f3ca4c
+    25% saturado    #ffc600
+    original        #efb810
+    25% desaturado  #d9ad26
+    25% mas oscuro  #bf930d */
+}
+
+.golden-text {
+    color: var(--golden_color);
+}

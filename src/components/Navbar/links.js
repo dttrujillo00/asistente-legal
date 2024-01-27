@@ -6,17 +6,17 @@ export const links = [
     },
     {
         id: '2',
-        name: '¿Quiénes somos?',
-        href: '#'
+        name: 'Paquetes',
+        href: '#ofertasContainer'
     },
     {
         id: '3',
-        name: 'Ofertas',
-        href: '#'
+        name: '¿Quiénes somos?',
+        href: '#nosotrosContainer'
     },
     {
         id: '4',
         name: 'Asesoría',
-        href: '#'
+        href: '#asesoriaContainer'
     },
 ]

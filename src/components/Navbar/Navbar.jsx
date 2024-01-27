@@ -8,7 +8,7 @@ export const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Asesorias de Oro</a>
+          <a className="navbar-brand golden-text" href="#">Asesorias de Oro</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -22,18 +22,7 @@ export const Navbar = () => {
                   )
                 } )
               }
-              {/* <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> */}
             </ul>
-            <form role="search">
-              <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
-            </form>
           </div>
         </div>
       </nav>
