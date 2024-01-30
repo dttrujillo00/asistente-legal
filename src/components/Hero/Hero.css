@@ -6,7 +6,7 @@
 
 .hero {
     width: 100vw;
-    background-image: url(/assets/mazo-dorado.jpg);
+    background-image: url(/img/mazo-dorado.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
