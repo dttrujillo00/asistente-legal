@@ -6,7 +6,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+      <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top" aria-label="Fourth navbar example">
         <div className="container-fluid">
           <a className="navbar-brand golden-text" href="#">Asesorias de Oro</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
