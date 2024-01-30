@@ -12,7 +12,7 @@ export const Hero = () => {
                     <h1 className="display-5 fw-bold lh-1 mb-3">Asesorias de Oro</h1>
                     <p className="lead">Aqui le brindamos el mejor servicio de todo el país, si quiere mantenerse informado de las últimas regulaciones, mantener su negocio en la legalidad y sobre todo, trabajar con los mejores, no esperes más y solicita nuestros servicios</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="#ofertasContainer" className="btn bg-dark btn-lg px-4 me-md-2 text-white">Solicitar</a>
+                        <a href="#ofertasContainer" className="btn bg-dark btn-lg px-4 me-md-2 golden-text">Solicitar</a>
                     </div>
                 </div>
             </div>

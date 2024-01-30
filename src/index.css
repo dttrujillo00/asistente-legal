@@ -10,3 +10,9 @@
 .golden-text {
     color: var(--golden_color);
 }
+
+.btn:hover {
+    color: var(--golden_color) !important;
+    transition: all .3s;
+    transform: scale(1.03);
+}

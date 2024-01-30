@@ -11,7 +11,7 @@ export const LegalApp = () => {
       <Navbar />
       <Hero />
       <OfertasContainer />
-      <Nosotros />
+      {/* <Nosotros /> */}
       <EmailForm />
       <Footer />
     </>
