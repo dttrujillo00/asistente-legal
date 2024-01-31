@@ -7,6 +7,10 @@
     25% mas oscuro  #bf930d */
 }
 
+body {
+    position: relative;
+}
+
 .golden-text {
     color: var(--golden_color);
 }

@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { TitleSection } from '../TitleSection/TitleSection'
 import './EmailForm.css'
@@ -6,15 +6,18 @@ import './EmailForm.css'
 export const EmailForm = () => {
 
   const form = useRef();
+  const [buttonStatus, setButtonStatus] = useState('Enviar')
 
   const sendEmail = event => {
     event.preventDefault();
+    setButtonStatus('Enviando correo...')
 
     emailjs.sendForm('service_kaurhwp', 'contact_form', form.current, '6vBOL4XQ5xIp85Xis')
     .then( (result) => {
-      console.log(result.text);
+      setButtonStatus('Correo enviado 👍')
+      form.current.reset()
     }, (error) => {
-      console.log(error.text)
+      console.log("ERROR " + error)
     } );
   };
 
@@ -34,7 +37,11 @@ export const EmailForm = () => {
             <textarea name='message' rows="5" className="form-control" placeholder="Mensaje"></textarea>
           </div>
           <div className="col-12">
-            <button type="submit" className="btn btn-dark w-100">Enviar</button>
+            <button type="submit" className="btn btn-dark w-100">
+              {
+                buttonStatus
+              }
+            </button>
           </div>
         </form>
       </div>    
